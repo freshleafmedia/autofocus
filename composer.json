@@ -11,5 +11,16 @@
     "require": {
         "php": "^8.0",
         "ext-imagick": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "@php pest"
     }
 }

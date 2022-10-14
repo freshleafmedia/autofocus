@@ -1,0 +1,15 @@
+{
+    "name": "freshleafmedia/autofocus",
+    "description": "Automatic image focal point detection",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FreshleafMedia\\Autofocus\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-imagick": "*"
+    }
+}

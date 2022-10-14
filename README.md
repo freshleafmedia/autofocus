@@ -39,12 +39,14 @@ The algorithm works by picking the busiest area of the image:
 4. Calculate the average brightness within each segment
 5. Pick the segment with the highest brightness
 
-<img src="assets/owl.jpg" width="16%" />
-<img src="assets/owl-edges.jpg" width="16%" />
-<img src="assets/owl-vignette.jpg" width="16%" />
-<img src="assets/owl-segment.jpg" width="16%" />
-<img src="assets/owl-average.jpg" width="16%" />
-<img src="assets/owl-select.jpg" width="16%" />
+<p float="left">
+    <img src="assets/owl.jpg" width="16%" />
+    <img src="assets/owl-edges.jpg" width="16%" />
+    <img src="assets/owl-vignette.jpg" width="16%" />
+    <img src="assets/owl-segment.jpg" width="16%" />
+    <img src="assets/owl-average.jpg" width="16%" />
+    <img src="assets/owl-select.jpg" width="16%" />
+</p>
 
 
 ## Options

@@ -14,7 +14,7 @@ class Segment
     {
     }
 
-    public function midPoint() {
+    public function midPoint(): Point {
         return new Point(
             $this->x + intdiv($this->w, 2),
             $this->y + intdiv($this->h, 2),

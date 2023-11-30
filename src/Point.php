@@ -11,7 +11,7 @@ class Point
     {
     }
 
-    public function __toString()
+    public function __toString(): string
     {
         return '(' . $this->x . ', ' . $this->y . ')';
     }

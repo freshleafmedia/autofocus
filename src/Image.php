@@ -50,7 +50,7 @@ class Image
 
         for ($x = 0; $x < $this->image->getImageWidth(); ++$x) {
             for ($y = 0; $y < $this->image->getImageHeight(); ++$y) {
-                $focus = $this->factor($x + $this->segmentSize / 2, $y + $this->segmentSize / 2, $this->image->getImageWidth(), $this->image->getImageHeight()) * 0.15;
+                $focus = $this->factor($x + intdiv($this->segmentSize, 2), $y + intdiv($this->segmentSize, 2), $this->image->getImageWidth(), $this->image->getImageHeight()) * 0.15;
                 $width = min($this->image->getImageWidth() - $x, $this->segmentSize);
                 $height = min($this->image->getImageHeight() - $y, $this->segmentSize);
                 $pixels = $width * $height;

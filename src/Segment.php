@@ -16,7 +16,8 @@ class Segment
 
     public function midPoint() {
         return new Point(
-            $this->x + $this->w / 2,
-            $this->y + $this->h / 2);
+            $this->x + intdiv($this->w, 2),
+            $this->y + intdiv($this->h, 2),
+        );
     }
 }

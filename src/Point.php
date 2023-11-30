@@ -2,7 +2,9 @@
 
 namespace FreshleafMedia\Autofocus;
 
-class Point
+use Stringable;
+
+class Point implements Stringable
 {
     public function __construct(
         public int $x,
